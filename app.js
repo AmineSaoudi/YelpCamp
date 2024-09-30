@@ -40,7 +40,6 @@ const MongoDBStore = require("connect-mongo")
 // brew services start mongodb/brew/mongodb-community@7.0
 // brew services stop mongodb/brew/mongodb-community@7.0
 
-console.log(dbUrl)
 mongoose.connect(dbUrl);
 
 const db = mongoose.connection;
